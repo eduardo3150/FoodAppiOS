@@ -1,5 +1,6 @@
 import Foundation
+import Alamofire
 
 protocol ApiProviderProtocol {
-    func getRecipes() -> String
+    func getRandomRecipes() -> DataResponsePublisher<RecipeMain>
 }

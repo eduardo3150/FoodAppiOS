@@ -19,6 +19,7 @@
 		54609EB75C64C7BEBE474D46 /* Pods_FoodAppApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21C5221529B0F8504109C4 /* Pods_FoodAppApi.framework */; };
 		108F814B79888F17046A9D56 /* Pods_FoodAppApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60305873B705ACA62B37BDC2 /* Pods_FoodAppApiTests.framework */; };
 		F678D24ED1D7D600FB670AF4 /* Pods_FoodAppApi_FoodAppApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07B97031216AC4AA17CC4D9 /* Pods_FoodAppApi_FoodAppApiUITests.framework */; };
+		707AE14B2589E1CD00FC44F2 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AE14A2589E1CD00FC44F2 /* Recipe.swift */; };
 		70DA795A258913400071F4B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7959258913400071F4B6 /* SceneDelegate.swift */; };
 		70CBE1AB2589BBD8006FAEC3 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBE1AA2589BBD8006FAEC3 /* SwinjectStoryboard.swift */; };
 		70DA795C258913400071F4B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA795B258913400071F4B6 /* ViewController.swift */; };
@@ -66,6 +67,7 @@
 		9B21C5221529B0F8504109C4 /* Pods_FoodAppApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodAppApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60305873B705ACA62B37BDC2 /* Pods_FoodAppApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodAppApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07B97031216AC4AA17CC4D9 /* Pods_FoodAppApi_FoodAppApiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodAppApi_FoodAppApiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707AE14A2589E1CD00FC44F2 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		70DA7959258913400071F4B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		70CBE1AA2589BBD8006FAEC3 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboard.swift; sourceTree = "<group>"; };
 		70DA795B258913400071F4B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				70CBE1A02589BB61006FAEC3 /* ApiProvider.swift */,
 				70CBE1A52589BB70006FAEC3 /* ApiProviderProtocol.swift */,
+				707AE14A2589E1CD00FC44F2 /* Recipe.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				70CBE1A62589BB70006FAEC3 /* ApiProviderProtocol.swift in Sources */,
 				70DA7958258913400071F4B6 /* AppDelegate.swift in Sources */,
 				707AE11F2589D8CE00FC44F2 /* MainViewModel.swift in Sources */,
+				707AE14B2589E1CD00FC44F2 /* Recipe.swift in Sources */,
 				70DA795A258913400071F4B6 /* SceneDelegate.swift in Sources */,
 				70CBE1AB2589BBD8006FAEC3 /* SwinjectStoryboard.swift in Sources */,
 				70DA795C258913400071F4B6 /* ViewController.swift in Sources */,
