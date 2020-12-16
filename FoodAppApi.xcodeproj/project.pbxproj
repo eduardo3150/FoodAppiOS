@@ -3,20 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70CBE1A12589BB61006FAEC3 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBE1A02589BB61006FAEC3 /* ApiProvider.swift */; };
+		70CBE1A62589BB70006FAEC3 /* ApiProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBE1A52589BB70006FAEC3 /* ApiProviderProtocol.swift */; };
 		70DA7958258913400071F4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7957258913400071F4B6 /* AppDelegate.swift */; };
 		70DA7961258913420071F4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7960258913420071F4B6 /* Assets.xcassets */; };
 		70DA796F258913420071F4B6 /* FoodAppApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA796E258913420071F4B6 /* FoodAppApiTests.swift */; };
 		70DA797A258913420071F4B6 /* FoodAppApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7979258913420071F4B6 /* FoodAppApiUITests.swift */; };
 		70DA7964258913420071F4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7962258913420071F4B6 /* LaunchScreen.storyboard */; };
 		70DA795F258913400071F4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA795D258913400071F4B6 /* Main.storyboard */; };
+		707AE11F2589D8CE00FC44F2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AE11E2589D8CE00FC44F2 /* MainViewModel.swift */; };
 		54609EB75C64C7BEBE474D46 /* Pods_FoodAppApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21C5221529B0F8504109C4 /* Pods_FoodAppApi.framework */; };
 		108F814B79888F17046A9D56 /* Pods_FoodAppApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60305873B705ACA62B37BDC2 /* Pods_FoodAppApiTests.framework */; };
 		F678D24ED1D7D600FB670AF4 /* Pods_FoodAppApi_FoodAppApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07B97031216AC4AA17CC4D9 /* Pods_FoodAppApi_FoodAppApiUITests.framework */; };
 		70DA795A258913400071F4B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7959258913400071F4B6 /* SceneDelegate.swift */; };
+		70CBE1AB2589BBD8006FAEC3 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBE1AA2589BBD8006FAEC3 /* SwinjectStoryboard.swift */; };
 		70DA795C258913400071F4B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA795B258913400071F4B6 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70CBE1A02589BB61006FAEC3 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		70CBE1A52589BB70006FAEC3 /* ApiProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderProtocol.swift; sourceTree = "<group>"; };
 		70DA7957258913400071F4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DA7960258913420071F4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70DA795E258913400071F4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,6 +56,7 @@
 		70DA7965258913420071F4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70DA7970258913420071F4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70DA797B258913420071F4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707AE11E2589D8CE00FC44F2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		A3CC6567ECC0092912BDB0D8 /* Pods-FoodAppApi-FoodAppApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodAppApi-FoodAppApiUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodAppApi-FoodAppApiUITests/Pods-FoodAppApi-FoodAppApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		68EDA09D793B87DCC503F11A /* Pods-FoodAppApi-FoodAppApiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodAppApi-FoodAppApiUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodAppApi-FoodAppApiUITests/Pods-FoodAppApi-FoodAppApiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9B45E236413F57A6F7D75AC7 /* Pods-FoodAppApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodAppApi.debug.xcconfig"; path = "Target Support Files/Pods-FoodAppApi/Pods-FoodAppApi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +67,7 @@
 		60305873B705ACA62B37BDC2 /* Pods_FoodAppApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodAppApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07B97031216AC4AA17CC4D9 /* Pods_FoodAppApi_FoodAppApiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodAppApi_FoodAppApiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DA7959258913400071F4B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70CBE1AA2589BBD8006FAEC3 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboard.swift; sourceTree = "<group>"; };
 		70DA795B258913400071F4B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,8 +109,33 @@
 				CE4367E35C8B995ABF6D28F6 /* Pods-FoodAppApiTests.debug.xcconfig */,
 				EC8A90FA43BA19DF9A645251 /* Pods-FoodAppApiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		707AE1302589DB0100FC44F2 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				707AE11E2589D8CE00FC44F2 /* MainViewModel.swift */,
+				70DA795B258913400071F4B6 /* ViewController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		707AE1342589DB1100FC44F2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				70CBE1A02589BB61006FAEC3 /* ApiProvider.swift */,
+				70CBE1A52589BB70006FAEC3 /* ApiProviderProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		707AE1382589DB1C00FC44F2 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				70CBE1AA2589BBD8006FAEC3 /* SwinjectStoryboard.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 		70DA794B2589133F0071F4B6 = {
@@ -130,13 +163,15 @@
 		70DA7956258913400071F4B6 /* FoodAppApi */ = {
 			isa = PBXGroup;
 			children = (
+				707AE1382589DB1C00FC44F2 /* DI */,
+				707AE1302589DB0100FC44F2 /* MainView */,
+				707AE1342589DB1100FC44F2 /* Networking */,
 				70DA7957258913400071F4B6 /* AppDelegate.swift */,
 				70DA7960258913420071F4B6 /* Assets.xcassets */,
 				70DA7965258913420071F4B6 /* Info.plist */,
 				70DA7962258913420071F4B6 /* LaunchScreen.storyboard */,
 				70DA795D258913400071F4B6 /* Main.storyboard */,
 				70DA7959258913400071F4B6 /* SceneDelegate.swift */,
-				70DA795B258913400071F4B6 /* ViewController.swift */,
 			);
 			path = FoodAppApi;
 			sourceTree = "<group>";
@@ -407,8 +442,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CBE1A12589BB61006FAEC3 /* ApiProvider.swift in Sources */,
+				70CBE1A62589BB70006FAEC3 /* ApiProviderProtocol.swift in Sources */,
 				70DA7958258913400071F4B6 /* AppDelegate.swift in Sources */,
+				707AE11F2589D8CE00FC44F2 /* MainViewModel.swift in Sources */,
 				70DA795A258913400071F4B6 /* SceneDelegate.swift in Sources */,
+				70CBE1AB2589BBD8006FAEC3 /* SwinjectStoryboard.swift in Sources */,
 				70DA795C258913400071F4B6 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

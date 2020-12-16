@@ -8,6 +8,7 @@ target 'FoodAppApi' do
   # Pods for FoodAppApi
   pod 'Swinject'
   pod 'SwinjectStoryboard'
+  pod 'SwinjectAutoregistration', '2.7.0'
   pod 'Alamofire', '~> 5.2'
 
   target 'FoodAppApiTests' do
